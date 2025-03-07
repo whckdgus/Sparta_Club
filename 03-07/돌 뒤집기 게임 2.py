@@ -4,7 +4,7 @@ for tc in range(1, T + 1): #테스트 케이스 만큼 반복
     N, M = map(int, input().split()) #돌의수 N과 뒤집기 횟수 M 입력
     arr = list(map(int, input().split())) # N개 돌의 초기상태 입력
 
-    for _ in range(M): # M번 반복복
+    for _ in range(M): # M번 반복
         i, j = map(int, input().split()) # M번만큼 i,j반복
         i = i - 1 #인덱스는 0부터 시작하므로 -1
 
