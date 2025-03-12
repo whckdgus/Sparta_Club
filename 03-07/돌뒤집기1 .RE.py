@@ -7,7 +7,7 @@ for tc in range(1,T+1):
         i,j = map(int,input().split())
         i -= 1
 
-        for l in range(i,i+j):
+        for l in range(i,i+j): #인덱스가 4까지임 ^^ (N이 5라면)
             if l >= N:
                 break
             if arr[l] != arr[i]: 
